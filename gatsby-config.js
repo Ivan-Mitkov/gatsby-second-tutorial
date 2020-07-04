@@ -2,7 +2,12 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby Bootcamp`,
     description: `Second Gatsby project`,
-    author: `@gatsbyjs`,
+    author: `@ivan`,
+    persons: ["person 1", "person 2"],
+    name: {
+      name: "Ivan",
+      email: "i@i.com",
+    },
   },
   plugins: [
     `gatsby-plugin-styled-components`,

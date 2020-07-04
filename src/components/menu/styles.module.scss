@@ -1,0 +1,27 @@
+.menu {
+  background-color: #777;
+  color: #fff;
+}
+.menu__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 100px;
+}
+
+.menu__list li {
+  list-style: none;
+  display: block;
+  padding: 16px;
+}
+
+.menu__list li:last-of-type{
+  flex:1;
+  display: flex;
+  justify-content: flex-end;
+}
+.menu__list li a {
+  text-decoration: none;
+  color: #fff;
+}

@@ -21,6 +21,9 @@ const Menu = () => {
           <Link to="/contacts">Contacts</Link>
         </li>
         <li>
+          <Link to="/images">Images Examples</Link>
+        </li>
+        <li>
           <Link to="/examples">Grapql examples</Link>
         </li>
       </ul>

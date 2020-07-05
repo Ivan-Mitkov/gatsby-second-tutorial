@@ -9,3 +9,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.images {
+  text-align: center;
+  text-transform: capitalize;
+  width: 80vw;
+  margin: 0 auto;
+}
+.singleImage {
+  border: 2px solid #aaa;
+  padding: 1rem 0;
+}
+@media screen and (min-width: 990px) {
+  .images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+  }
+}

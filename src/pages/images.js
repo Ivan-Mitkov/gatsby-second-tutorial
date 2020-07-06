@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
-import Header from "../examples/header";
+// import Header from "../examples/header";
 import Image from "gatsby-image";
 import styles from "../components/layout.module.scss";
 import { graphql, useStaticQuery } from "gatsby";

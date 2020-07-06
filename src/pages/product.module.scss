@@ -1,0 +1,24 @@
+.page {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+  grid-gap: 40px;
+}
+
+.productImage {
+  height: 200px;
+}
+
+.title {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  font-weight: 100;
+  font-size: 1.2rem;
+  margin-left: 20px;
+}

@@ -49,11 +49,11 @@ const Layout = ({ children }) => {
           minHeight: `100vh`,
         }}
       >
-        <Button>
+        {/* <Button>
           <StyledLink>
             <Link to="/">Go back</Link>
           </StyledLink>
-        </Button>
+        </Button> */}
         <main className="mane">{children}</main>
       </div>
       <Footer />

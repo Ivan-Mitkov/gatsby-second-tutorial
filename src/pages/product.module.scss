@@ -20,5 +20,14 @@
 .price {
   font-weight: 100;
   font-size: 1.2rem;
-  margin-left: 20px;
+}
+
+.singleProduct {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-gap: 60px;
+  grid-row-gap: 40px;
+  align-items: start;
+  justify-items: space-between;
+  padding-top: 40px ;
 }
